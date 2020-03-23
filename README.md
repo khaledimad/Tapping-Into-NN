@@ -11,10 +11,10 @@ Based on our model, we evaluate a test accuracy of approximately 91.1% for data 
 
 ## Second model accuracy (no dropouts)
 After removing the dropouts from the final layer, we notice an improvement in the model with a
-newly observed accuracy of 91.5%.<br>
+newly observed accuracy of 91.5%.<br><br>
 Dropouts are used in Neural networks to avoid overfitting during the training phase. In a fully
 connected network, the neurons develop dependency between each other which leads to overfitting
-of the training dataset.<br>
+of the training dataset.<br><br>
 Dropouts are similar to regularization in regression. Probabilistically dropping out neuron in the
 network is a simple and effective regularization method. This explains why the accuracy has
 increased when we removed the dropouts from the neural net model. IT has increased since the
